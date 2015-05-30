@@ -12,7 +12,7 @@ If you start to learn programming in Java, there is a lot of overhead. Think abo
 public class MyFirstProgramm {
 
     public static void main(String [] args) {
-         System.out.println(„Hello World“);
+         System.out.println("Hello World");
     } 
 
 }
@@ -21,11 +21,11 @@ public class MyFirstProgramm {
 Personally I would be terrified. People say that Java is an easy language, while this example shows the complete opposite. Sure, if you are familiar with object oriented programming you can understand what is going on, but as a beginner you would be definitely terrified. Compare that to a language like Ruby
 
 ```ruby
-puts „Hello World“
+puts "Hello World"
 ```
 
 Look how simple it is. All it takes is a text editor, and 1 line of code. That’s it. Your students have written their first program, and the best part is you didn’t have to explain what class, static, void and all these dots do. You can concentrate on the things you want to teach and not the language. When explaining the different types data you can be sure to explain it without the technical details like the internal representation of a string or the binary representation of an integer. These are important things of course, but at the moment you want to show how to write a program, not how a computer works. Higher level languages abstract these things away, nobody has to care about overflow errors in a language like python, they are gone and that’s great. Programming is a complex subject, but it is also fun to fiddle around and see instant results and that’s possible in those languages. 
 
 Later on it is easy to adapt your mind to a statically typed language like Java. You are now familiar with object orientation, types, classes, and after a while you will figure out that it is not the best idea to represent the 1000th  fibonacci number in an int variable. But you started smoothly and had instant successes with your first programming language, and that kept you from thinking that programming is the most complex thing in the world.
 
-Especially in academia I sometimes have the feeling, that there’s a bizarre love to express easy things in a complex manner. We should stop that bullshit. Nobody thinks you are a genius only because you play technical term bullshit bingo. Show  programming as a the fun it is and not the enterprise-business-dead-serious thing you made it.
+Especially in academia I sometimes have the feeling, that there’s a bizarre love to express easy things in a complex manner. We should stop that bullshit. Nobody thinks you are a genius only because you play technical term bullshit bingo. Show  programming as a the fun it can be and not the enterprise-business-dead-serious thing you made it.
