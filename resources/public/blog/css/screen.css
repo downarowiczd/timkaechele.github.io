@@ -1,0 +1,52 @@
+html {
+}
+body {
+
+    font-family: "Georgia", Arial, sans-serif;
+    max-width: 550px;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+h1 {
+    background: #FFC100;
+    padding: 10px;
+    color: white;
+}
+.blog-brand {
+    background: black;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 1;
+}
+
+.blog-brand small {
+    font-size: 16px;
+}
+
+.blog-entries-list {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.blog-entries-list li {
+    margin-bottom: 0.5em;
+    list-style: none;
+}
+
+.blog-entries-list li a {
+    color: black;
+}
+
+.container {
+    padding: 0 10px;
+}
+
+footer:before {
+    content: "";
+    display: block;
+    width: 15%;
+    border-top: 2px solid black;
+    padding: 0.5em;
+}

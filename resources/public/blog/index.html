@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Thought</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/screen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/index.html">Thought</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li  class="active" ><a href="/blog/index.html">Home</a></li>
+                <li
+                ><a href="/blog/archives.html">Archives</a></li>
+                
+                <li
+                >
+                <a href="/blog/pages/about.html">About</a>
+                </li>
+                
+                <li><a href="/blog/feed.xml">RSS</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+</nav>
+
+
+<div class="container">
+
+
+    <div class="row">
+        <div class="col-lg-9">
+            <div id="content">
+                
+<div id="post">
+    <div id="post-header">
+    <div id="post-meta" class="row">
+        <div class="col-lg-6">May 31, 2015</div>
+        
+    </div>
+    <h2>A Post</h2>
+</div>
+<div>
+    
+    <h1><a name="the&#95;case&#95;against&#95;java&#95;as&#95;your&#95;first&#95;programming&#95;language"></a>The Case against Java as your first programming language</h1><p>First of all: I am biased. I started learning programming with the really high high-level programming languages. Ruby, Python, Haskell, well even PHP and Javascript. </p><p>What you learn in those languages is different. Different from what you would learn in a programming language like C or Java. You don’t have to care about Pointers, References or Object Oriented Programming in the first place. These high-level programming languages let you forget that you actually work with the dumbest thing in the world: a computer. You can just start by fiddling around. The languages are merciful, especially ruby, where it is totally normal to have more than just one way to do things.</p><p>Some python folks are now on a rant because there’s only one way to do it right, but guess what there’s always more than one way to solve a problem.</p><p>If you start to learn programming in Java, there is a lot of overhead. Think about it, you never seen a computer program before and now somebody wants you to write this.</p><pre><code class="java">public class MyFirstProgramm {
+
+    public static void main&#40;String &#91;&#93; args&#41; {
+         System.out.println&#40;&quot;Hello World&quot;&#41;;
+    } 
+
+}
+</code></pre><p>Personally I would be terrified. People say that Java is an easy language, while this example shows the complete opposite. Sure, if you are familiar with object oriented programming you can understand what is going on, but as a beginner you would be definitely overwhelmed. Compare that to a language like Ruby</p><pre><code class="ruby">puts &quot;Hello World&quot;
+</code></pre><p>Look how simple it is. All it takes is a text editor, and 1 line of code. That’s it. Your students have written their first program, and the best part is you didn’t have to explain what class, static, void and all these dots do. You can concentrate on the things you want to teach and not the language. When explaining the different types data you can be sure to explain it without the technical details like the internal representation of a string or the binary representation of an integer. These are important things of course, but at the moment you want to show how to write a program, not how a computer works. Higher level languages abstract these things away, so that nobody has to care about overflow errors in a language like python, Programming is a complex subject, but it is also fun to fiddle around and see instant results and that’s possible in those languages.</p><blockquote><p> We shouldn’t use a programming language that requires 50 lines of code to open a file and write to it, to teach people how easy programming can be. </p></blockquote><p>Later on it is easy to adapt your mind to a statically typed language like Java. You are now familiar with object orientation, types, classes, and after a while you will figure out that it is not the best idea to represent the 1000th  fibonacci number in an int variable. But you started smoothly and had instant successes with your first programming language, and that kept you from thinking that programming is the most complex thing in the world.</p><p>Especially in academia I sometimes have the feeling, that there’s a bizarre love to express easy things in a complex manner. We should stop that bullshit. Nobody thinks you are a genius only because you play technical term bullshit bingo. Show  programming as the fun it can be and not the enterprise-business-dead-serious thing you made it.</p>
+</div>
+
+<div id="post-tags">
+    <b>Tags: </b>
+    
+    <a href="/blog/tags/not fetch.html">not fetch</a>
+    
+</div>
+
+
+    
+
+    <div id="prev-next">
+        
+        
+    </div>
+</div>
+
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div id="sidebar">
+                <h3>Links</h3>
+                <ul id="links">
+                    <li><a href="http://cryogenweb.org/docs/home.html">Cryogen Docs</a></li>
+                    <li><a href="http://carmenla.me/blog/index.html">Carmen's Blog</a></li>
+                    
+                    <li><a href="/blog/pages/another-page.html">Another Page</a></li>
+                    
+                </ul>
+                
+                <div id="recent">
+                    <h3>Recent Posts</h3>
+                    <ul>
+                        
+                        <li><a href="/blog/posts/2015-05-31-the-case-against-java-as-your-first-programming-language.html">A Post</a></li>
+                        
+                    </ul>
+                </div>
+                
+                
+                <div id="tags">
+                    <h3>Tags</h3>
+                    <ul>
+                        
+                        <li><a href="/blog/tags/not fetch.html">not fetch</a></li>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <footer>Copyright &copy; 2014 BLOGAWESOME
+        <p style="text-align: center;">Powered by <a href="http://cryogenweb.org">Cryogen</a></p></footer>
+</div>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="js/highlight.pack.js" type="text/javascript"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
+

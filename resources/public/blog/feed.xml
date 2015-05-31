@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
+<channel>
+<atom:link href='http://timkaechele.me' rel='self' type='application/rss+xml'/>
+<generator>
+clj-rss
+</generator>
+<title>
+Thought
+</title>
+<link>
+http://timkaechele.me
+</link>
+<description>
+A collection of some thoughts.
+</description>
+<lastBuildDate>
+Sun, 31 May 2015 00:57:32 +0200
+</lastBuildDate>
+<item>
+<guid>
+http://timkaechele.me/blog/posts/2015-05-31-the-case-against-java-as-your-first-programming-language.html
+</guid>
+<link>
+http://timkaechele.me/blog/posts/2015-05-31-the-case-against-java-as-your-first-programming-language.html
+</link>
+<title>
+A Post
+</title>
+<description>
+&lt;h1&gt;&lt;a name=&quot;the&amp;#95;case&amp;#95;against&amp;#95;java&amp;#95;as&amp;#95;your&amp;#95;first&amp;#95;programming&amp;#95;language&quot;&gt;&lt;/a&gt;The Case against Java as your first programming language&lt;/h1&gt;&lt;p&gt;First of all: I am biased. I started learning programming with the really high high-level programming languages. Ruby, Python, Haskell, well even PHP and Javascript. &lt;/p&gt;&lt;p&gt;What you learn in those languages is different. Different from what you would learn in a programming language like C or Java. You don’t have to care about Pointers, References or Object Oriented Programming in the first place. These high-level programming languages let you forget that you actually work with the dumbest thing in the world: a computer. You can just start by fiddling around. The languages are merciful, especially ruby, where it is totally normal to have more than just one way to do things.&lt;/p&gt;&lt;p&gt;Some python folks are now on a rant because there’s only one way to do it right, but guess what there’s always more than one way to solve a problem.&lt;/p&gt;&lt;p&gt;If you start to learn programming in Java, there is a lot of overhead. Think about it, you never seen a computer program before and now somebody wants you to write this.&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;java&quot;&gt;public class MyFirstProgramm {
+
+    public static void main&amp;#40;String &amp;#91;&amp;#93; args&amp;#41; {
+         System.out.println&amp;#40;&amp;quot;Hello World&amp;quot;&amp;#41;;
+    } 
+
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Personally I would be terrified. People say that Java is an easy language, while this example shows the complete opposite. Sure, if you are familiar with object oriented programming you can understand what is going on, but as a beginner you would be definitely overwhelmed. Compare that to a language like Ruby&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;puts &amp;quot;Hello World&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Look how simple it is. All it takes is a text editor, and 1 line of code. That’s it. Your students have written their first program, and the best part is you didn’t have to explain what class, static, void and all these dots do. You can concentrate on the things you want to teach and not the language. When explaining the different types data you can be sure to explain it without the technical details like the internal representation of a string or the binary representation of an integer. These are important things of course, but at the moment you want to show how to write a program, not how a computer works. Higher level languages abstract these things away, so that nobody has to care about overflow errors in a language like python, Programming is a complex subject, but it is also fun to fiddle around and see instant results and that’s possible in those languages.&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt; We shouldn’t use a programming language that requires 50 lines of code to open a file and write to it, to teach people how easy programming can be. &lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;Later on it is easy to adapt your mind to a statically typed language like Java. You are now familiar with object orientation, types, classes, and after a while you will figure out that it is not the best idea to represent the 1000th  fibonacci number in an int variable. But you started smoothly and had instant successes with your first programming language, and that kept you from thinking that programming is the most complex thing in the world.&lt;/p&gt;&lt;p&gt;Especially in academia I sometimes have the feeling, that there’s a bizarre love to express easy things in a complex manner. We should stop that bullshit. Nobody thinks you are a genius only because you play technical term bullshit bingo. Show  programming as the fun it can be and not the enterprise-business-dead-serious thing you made it.&lt;/p&gt;
+</description>
+<pubDate>
+Sun, 31 May 2015 00:00:00 +0200
+</pubDate>
+</item>
+</channel>
+</rss>
