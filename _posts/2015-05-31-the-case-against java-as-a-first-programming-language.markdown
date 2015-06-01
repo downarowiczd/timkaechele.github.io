@@ -72,7 +72,7 @@ instant successes.
 I don’t suggest to dumb down the programming part in a computer science
 degree, but instead to concentrate on the ideas behind programming and the
 mental models it is build around, not the quirks of overly complex languages.
-Java, C#, C++ and C are all very powerful and one should learn how to programm
+Java, C#, C++ and C are all very powerful and one should learn how to program
 in them, but please not as the first programming language. We can do better
 than that.
 
