@@ -2,7 +2,7 @@
 title: Thought
 email: "mail@timkaechele.me"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://timkaechele.me" # the base hostname & protocol for your site
+url: "http://blog.timkaechele.me" # the base hostname & protocol for your site
 
 # Build settings
 markdown: redcarpet
