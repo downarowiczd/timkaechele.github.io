@@ -55,7 +55,7 @@ complex subject, but it is also fun to play around with the language and see
 instant results and that’s possible in such an environment. It's not necessary
 to use everything a higher level language provides, like the syntactic sugar
 of an ".each" loop in ruby, you can still use the universally accepted old-
-school imperative way with a for loop to iterate over an array.
+school imperative way with a for loop to iterate over an array, yet modern tools like a REPL help to get instant feedback without the need of an heavy-weight IDE.
 
 But after grasping a first glance at how to write simple programs and what
 object oriented programming is about, it is easy to adapt the mind to a
