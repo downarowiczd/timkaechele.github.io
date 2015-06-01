@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "The case against java as a first programming language"
+title:  "The case against Java as a first programming language"
 date:   2015-05-31 00:00:00
 ---
 
 **First of all: I am biased. I started learning programming with the really high high-level programming languages. Ruby, Python, Haskell, well even PHP and Javascript.**
 
-What you learn in those languages is different. Different from what you would learn in a programming language like C or Java. You don’t have to care about Pointers, References or Object Oriented Programming in the first place. These high-level programming languages let you forget that you actually work with the dumbest thing in the world: a computer. You can just start by fiddling around. The languages are merciful, especially ruby, where it is totally normal to have more than just one way to solve a problem.
+What you learn in those languages is different. Different from what you would learn in a programming language like C or Java. You don’t have to care about pointers, references or object oriented programming in the beginning. These high-level programming languages let you forget that you actually work with the dumbest thing in the world: a computer. You can just start by fiddling around. The languages are merciful, especially ruby, where it is totally normal to have more than just one way to solve a problem.
 
 <!--~~Some python folks are now on a rant because there’s only one way to do it right, but guess what there’s always more than one way to solve a problem. Deal with it.~~-->
 
