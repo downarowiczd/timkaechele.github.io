@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="section">
+    <h1>Notes</h1>
+    <ul class="post-list">
+        {% for post in site.posts %}
+            <li>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+
+<section  class="section">
+    <h1>Contact</h1>
+    <p>
+    Tim Kächele<br/>
+    Karlsruhe, Germany<br/>
+    <a href="mailto:{{site.email}}">{{site.email}}</a>
+    </p>
+</section>

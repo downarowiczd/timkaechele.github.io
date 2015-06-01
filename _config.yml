@@ -1,0 +1,10 @@
+# Site settings
+title: Thought
+email: "mail@timkaechele.me"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://timkaechele.me" # the base hostname & protocol for your site
+
+# Build settings
+markdown: redcarpet
+redcarpet:
+    extensions: ["smart"]
