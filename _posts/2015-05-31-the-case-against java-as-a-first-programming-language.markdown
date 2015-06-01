@@ -4,7 +4,7 @@ title:  "The case against Java as a first programming language"
 date:   2015-05-31 00:00:00
 ---
 
-**First of all: I am biased. I started learning programming with the really high high-level programming languages. Ruby, Python, Haskell, well even PHP and Javascript.**
+**First of all: I am biased. I started learing programming with the really high high-level programming languages. Ruby, Python, Haskell, well even PHP and Javascript.**
 
 What you learn in those languages is different. Different from what you would learn in a programming language like C or Java. You don’t have to care about pointers, references or object oriented programming in the beginning. These high-level programming languages let you forget that you actually work with the dumbest thing in the world: a computer. You can just start by playing about. The languages are merciful, especially ruby, where it is totally normal to have more than just one way to solve a problem.
 
@@ -32,6 +32,6 @@ Look how simple it is. All it takes is a text editor and 1 line of code. That’
 
 But after grasping a first glance at how to write simple programs and what  object oriented programming is about, it is easy to adapt the mind to a statically typed language like Java. Students are now familiar with the fundamental concepts of programming and after a while they will figure out that it is not the best idea to represent the 1000th fibonacci number as an int variable or how costly a resizable array can be. They will be grateful for all the heavy lifting the programming language did to keep the quirks of computers out of sight. In the end everyone had a more pleasant experience, teachers because they are not compelled to skip questions about the weird "public static void main" syntax and students because of a smooth start and instant successes.
 
-I don’t suggest to dumb down the programming part in a computer science degree, but instead to concentrate on the ideas behind programming, and the mental models it is build around, not the quirks of overly complex languages. Programming Languages like Java, C#, C++ and C are powerful and one should learn how to programm in them, but please not as the first programming language. We can do better than that.
+I don’t suggest to dumb down the programming part in a computer science degree, but instead to concentrate on the ideas behind programming, and the mental models it is build around, not the quirks of overly complex languages. Java, C#, C++ and C are all very powerful and one should learn how to programm in them, but please not as the first programming language. We can do better than that.
 
 Especially in academia I sometimes have the feeling, that there’s a bizarre love to express easy things in a complex manner. I don’t know who came up with the idea to let freshman implement math formulae as computer science assignments, but it certainly is a more than just foolish thought, to believe that a challenging subject like programming gets any easier by combining it with higher mathematics. We should stop that and show programming as the fun it can be and not the enterprise-grade bullshit we turned it into.
