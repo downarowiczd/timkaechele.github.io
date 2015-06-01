@@ -29,6 +29,7 @@ a:hover {
 }
 
 pre {
+    overflow: auto;
     margin: 2em 0;
     font-family: "Fira Mono";
     font-size: 1em;
