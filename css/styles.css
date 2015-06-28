@@ -1,9 +1,9 @@
 html {
-    background: #f1f1f1;
+    /*background: #f1f1f1;*/
 }
 
 body {
-    font-family: "Georgia", Times, serif;
+    font-family: "Source Serif Pro", "Georgia", Times, serif;
     line-height: 1.5;
     font-size: 18px;
     font-size: 1.125em;
@@ -31,7 +31,7 @@ a:hover {
 pre {
     overflow: auto;
     margin: 2em 0;
-    font-family: "Fira Mono";
+    font-family: monospace;
     font-size: 1em;
     padding: 1em;
 }
