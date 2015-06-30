@@ -4,6 +4,12 @@ email: "mail@timkaechele.me"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "/" # the base hostname & protocol for your site
 
+exclude: [
+    'README.markdown',
+    'Gemfile.lock',
+    'Gemfile'
+]
+
 # Build settings
 markdown: redcarpet
 redcarpet:
