@@ -28,7 +28,7 @@ public class MyFirstProgram {
 }
 ```
 
-That example would terrify me. People say that Java is an easy language,
+That example still terrifies me. People say that Java is an easy language,
 while this example shows the complete opposite. Sure, if you are familiar with
 object oriented programming you can understand what is going on, but as a
 beginner you would be definitely overwhelmed. Compare that to a language like
