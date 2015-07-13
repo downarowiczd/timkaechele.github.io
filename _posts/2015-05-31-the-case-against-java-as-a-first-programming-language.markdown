@@ -2,6 +2,7 @@
 layout: post
 title:  "The case against Java as a first programming language"
 date:   2015-05-31 00:00:00
+tags: [java, first, programming, language]
 ---
 **First of all: I am biased. I started learing programming with the
 high high-level programming languages. Ruby, Python, Haskell,  Javascript,

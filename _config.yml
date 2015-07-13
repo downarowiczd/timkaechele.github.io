@@ -1,12 +1,24 @@
 # Site settings
-title: Thought
+title: Repeat the code
 email: "mail@timkaechele.me"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "/" # the base hostname & protocol for your site
-
+keywords:
+  - html
+  - css
+  - git
+  - ruby
+  - java
+  - code
+  - coding
+  - open-source
+  - opensource
+  - tim
+  - kächele
+  - kaechele
 exclude:
-  - README.markdown,
-  - Gemfile.lock,
+  - README.markdown
+  - Gemfile.lock
   - Gemfile
 
 
